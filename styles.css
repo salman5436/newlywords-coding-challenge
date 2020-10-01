@@ -1,8 +1,25 @@
+@media screen and (max-width:500px) {
+  #container
+  {
+    max-width: fit-content;
+    margin: 0 auto;
+  }
+  .modal-content {
+    max-width: 75%;
+  }
+  .modal {
+    max-width: fit-content;
+    margin: 0 auto;
+    padding: 0;
+    }
+}
+
 #container {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 
 #modal-btn {
     top: 50%;
@@ -62,7 +79,6 @@
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     align-items: center;
   }
   
